@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: normal;
+}
+.header {
+  padding: 79px 0 141px;
+  background-color: #eeeff1;
+}
+.menu-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #34547a;
+  margin-right: 42px;
+}
+.main-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 79px;
+  color: #000000;
+  margin-top: 151px;
+  margin-bottom: 60px;
+}
+.title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+}
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+  margin: 50px auto 0;
+  max-width: 540px;
+}
+.first-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin: 0;
+  text-align: left;
+}
+.button {
+  width: 225px;
+  height: 65px;
+  color: white;
+  background-color: #34547a;
+  margin-top: 65px;
+  border: none;
+  cursor: pointer;
+}
+.about {
+  padding: 112px 0px 100px;
+}
+.container {
+  max-width: 1150px;
+  margin: auto;
+  padding: 0 20px;
+}
+.statistic {
+  background-color: #34547a;
+  padding: 100px 0;
+}
+.statistic .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.statistic-element {
+  display: flex;
+  gap: 20px;
+}
+.number {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.third-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.info {
+  background-color: #eeeff1;
+  padding: 100px 0;
+}
+.video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  margin-top: 57px;
+}
+.footer {
+  background-color: #34547a;
+  color: #ffffff;
+  padding: 50px 0;
+}
+.name {
+  margin-bottom: 20px;
+}
