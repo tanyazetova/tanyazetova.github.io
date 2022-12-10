@@ -5,103 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework 9</title>
+    <title>Homework 10</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="navigation">
-                <a href="#" class="menu-item">Homepage</a>
-                <a href="#" class="menu-item">About author</a>
-                <a href="#" class="menu-item">Works</a>
-                <a href="#" class="menu-item">Process</a>
-                <a href="#" class="menu-item">Contacts</a>
-            </nav>
-            <h1 class="main-title">Design and layout</h1>
-            <p class="text first-text">
-                Lorem Ipsum is fish text often used in print and web design. Lorem Ipsum has been the standard "fish"
-                for
-                Latin texts since the early 16th century.
-            </p>
-            <button class="button">WRITE ME</button>
-        </div>
-    </header>
     <main>
-        <section class="about">
-            <div class="container">
-                <h2 class="title">About me</h2>
-                <p class="text">Lorem Ipsum is fish text often used in print and web design. Lorem Ipsum
-                    has been the standard "fish" for Latin texts since the early 16th century.
-                </p>
-            </div>
-        </section>
-        <section class="statistic">
-            <div class="container">
-                <div class="statistic-element">
-                    <img src="./project.png" alt="letter Z">
-                    <div>
-                        <h3 class="number">40+</h3>
-                        <p class="third-text">projects</p>
-                    </div>
-                </div>
-                <div class="statistic-element">
-                    <img src="./project.png" alt="letter Z">
-                    <div>
-                        <h3 class="number">40+</h3>
-                        <p class="third-text">projects</p>
-                    </div>
-                </div>
-                <div class="statistic-element">
-                    <img src="./project.png" alt="letter Z">
-                    <div>
-                        <h3 class="number">40+</h3>
-                        <p class="third-text">projects</p>
-                    </div>
-                </div>
-                <div class="statistic-element">
-                    <img src="./project.png" alt="letter Z">
-                    <div>
-                        <h3 class="number">40+</h3>
-                        <p class="third-text">projects</p>
-                    </div>
-                </div>
-                <div class="statistic-element">
-                    <img src="./project.png" alt="letter Z">
-                    <div>
-                        <h3 class="number">40+</h3>
-                        <p class="third-text">projects</p>
-                    </div>
-                </div>
-                <div class="statistic-element">
-                    <img src="./project.png" alt="letter Z">
-                    <div>
-                        <h3 class="number">40+</h3>
-                        <p class="third-text">projects</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="info">
-            <div class="container">
-                <h2 class="title">How do I work</h2>
-                <p class="text">Lorem Ipsum is fish text often used in print and web design. Lorem Ipsum has
-                    been
-                    the
-                    standard "fish" for Latin texts since the early 16th century.
-                </p>
-                <iframe class="video" src="https://www.youtube.com/embed/J42SZXS-_Qo" title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
-            </div>
-        </section>
+        <ul class="menu clearfix">
+            <li class="menu-item"><a href="#">Home</a></li>
+            <li class="menu-item">
+                <a href="#" class="have-sub-menu">Products</a>
+                <ul class="sub-menu">
+                    <li class="sub-item">
+                        <a class="have-sub-menu" href="#">Product 1</a>
+                        <ul class="sub-menu level-2">
+                            <li class="sub-item"><a href="#">Sub Item 1</a></li>
+                            <li class="sub-item"><a href="#">Sub Item 2</a></li>
+                            <li class="sub-item"><a href="#">Sub Item 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub-item">
+                        <a class="have-sub-menu" href="#">Product 2</a>
+                        <ul class="sub-menu level-2">
+                            <li class="sub-item"><a href="#">Sub Item 1</a></li>
+                            <li class="sub-item"><a href="#">Sub Item 2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="#">About</a>
+            </li>
+            <li class="menu-item">
+                <a href="#">Contact</a>
+            </li>
+        </ul>
     </main>
-    <footer class="footer">
-        <div class="container">
-            <h3 class="name">John Smith</h3>
-            <p class="copy">(c) 2018. All rights reserved.</p>
-        </div>
-    </footer>
 </body>
 
 </html>
