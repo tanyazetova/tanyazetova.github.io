@@ -5,42 +5,337 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework 10</title>
+    <title>Homework 12</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+
 </head>
 
-<body>
-    <main>
-        <ul class="menu clearfix">
-            <li class="menu-item"><a href="#">Home</a></li>
-            <li class="menu-item">
-                <a href="#" class="have-sub-menu">Products</a>
-                <ul class="sub-menu">
-                    <li class="sub-item">
-                        <a class="have-sub-menu" href="#">Product 1</a>
-                        <ul class="sub-menu level-2">
-                            <li class="sub-item"><a href="#">Sub Item 1</a></li>
-                            <li class="sub-item"><a href="#">Sub Item 2</a></li>
-                            <li class="sub-item"><a href="#">Sub Item 3</a></li>
-                        </ul>
-                    </li>
-                    <li class="sub-item">
-                        <a class="have-sub-menu" href="#">Product 2</a>
-                        <ul class="sub-menu level-2">
-                            <li class="sub-item"><a href="#">Sub Item 1</a></li>
-                            <li class="sub-item"><a href="#">Sub Item 2</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="menu-item">
+<body class="body">
+    <header class="header">
+        <nav class="nav top-container">
+            <img class="logo" src="./img/logo.png" alt="logo">
+            <div class="links">
+                <a href="#">Home</a>
                 <a href="#">About</a>
-            </li>
-            <li class="menu-item">
                 <a href="#">Contact</a>
-            </li>
-        </ul>
-    </main>
+            </div>
+            <button class="button">Let's talk</button>
+        </nav>
+    </header>
+
+    <section class="section-knowing top-container">
+        <div class="about-me">
+            <h1>hi, i’m tayler.<br>
+                a creative<img class="sun" src="./img/sun.png" alt="sun">designer<br>
+                based in london</h1>
+            <div class="skills">
+                design
+                <img class="star" src="./img/star.png" alt="star">
+                development
+                <img class="star" src="./img/star.png" alt="star">
+                webflow
+            </div>
+            <div class="info-buttons">
+                <button class="button black-bg">Got a project?</button>
+                <button class="button">Let's talk</button>
+            </div>
+        </div>
+        <img class="tayler-photo" src="./img/Tayler-photo.png" alt="Tayler photo">
+    </section>
+
+    <div class="skills-line black-bg">
+        DEVELOPMENT
+        <img class="star" src="./img/star.png" alt="star">
+        STRATEGY
+        <img class="star" src="./img/star.png" alt="star">
+        PRODUCT DESIGN
+        <img class="star" src="./img/star.png" alt="star">
+        MOTION GRAPHIC
+        <img class="star" src="./img/star.png" alt="star">
+        ART DIRECTION
+        <img class="star" src="./img/star.png" alt="star">
+        DESIGN
+        <img class="star" src="./img/star.png" alt="star">
+        BRANDING
+        <img class="star" src="./img/star.png" alt="star">
+    </div>
+
+    <section class="section-experience container">
+        <div class="exp-info">
+            <div class="exp-left">
+                <div class="exp-name">
+                    TAYLER
+                    <img class="star" src="./img/star.png" alt="star">
+                    BARTHHOLD
+                </div>
+                <h2 class="exp-heading">Lead product designer and art director.</h2>
+            </div>
+            <div class="exp-right">
+                <h3 class="exp-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore</h3>
+                <p class="exp-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.</p>
+                <div class="exp-address">
+                    <div class="addr-item">
+                        <h4 class="addr-name">BORN IN</h4>
+                        <p class="addr-value">New York</p>
+                    </div>
+                    <div class="addr-item">
+                        <h4 class="addr-name">EXPERIENCE</h4>
+                        <p class="addr-value">7+ Years</p>
+                    </div>
+                    <div class="addr-item">
+                        <h4 class="addr-name">DATE OF BIRTH</h4>
+                        <p class="addr-value">27 June 1992</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="exp-counters">
+            <div class="counter">
+                <h4 class="counter-value">7+</h4>
+                <p class="counter-name">Years of Experience</p>
+            </div>
+            <div class="counter black-bg">
+                <h4 class="counter-value">50+</h4>
+                <p class="counter-name">Project Completed</p>
+            </div>
+            <div class="counter">
+                <h4 class="counter-value">30+</h4>
+                <p class="counter-name">Happy Clients</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-awards container">
+        <div class="section-head">
+            <img class="sun" src="./img/sun.png" alt="sun">
+            <h2 class="section-head-title">Awards</h2>
+            <p class="section-head-subtitle">REGONITIONS &amp; ACCOIMPLISHMENTS</p>
+        </div>
+        <article class="award">
+            <div class="award-number">1</div>
+            <div class="award-info">
+                <h5 class="award-title">Webflow Awwwards Team</h5>
+                <p class="award-text">Runner Up - Webflow Expert Design</p>
+            </div>
+            <div class="award-skill">PRODUCT DESIGN <span class="award-date">2022</span></div>
+        </article>
+        <article class="award">
+            <div class="award-number">2</div>
+            <div class="award-info">
+                <h5 class="award-title">Webflow Awwwards Team</h5>
+                <p class="award-text">Runner Up - Webflow Expert Design</p>
+            </div>
+            <div class="award-skill">DEVELOPMENT <span class="award-date">2021</span></div>
+        </article>
+        <article class="award">
+            <div class="award-number">3</div>
+            <div class="award-info">
+                <h5 class="award-title">Webflow Awwwards Team</h5>
+                <p class="award-text">Runner Up - Webflow Expert Design</p>
+            </div>
+            <div class="award-skill">BRANDING <span class="award-date">2018</span></div>
+        </article>
+        <article class="award">
+            <div class="award-number">4</div>
+            <div class="award-info">
+                <h5 class="award-title">Webflow Awwwards Team</h5>
+                <p class="award-text">Runner Up - Webflow Expert Design</p>
+            </div>
+            <div class="award-skill">PRODUCT DESIGN <span class="award-date">2014</span></div>
+        </article>
+    </section>
+
+    <section class="section-portfolio container">
+        <div class="section-head">
+            <img class="sun" src="./img/sun.png" alt="sun">
+            <h2 class="section-head-title">Portfolio</h2>
+            <p class="section-head-subtitle">REGONITIONS &amp; ACCOIMPLISHMENTS</p>
+        </div>
+        <article class="portfolio">
+            <figure class="portfolio-figure"><img class="portfolio-image" src="img/IMAGE1.png" alt="Image"></figure>
+            <div class="portfolio-text">
+                <div class="portfolio-label">Art Direction</div>
+                <h2 class="portfolio-title">Beautiful and advanced website interfaces</h2>
+                <a href="#" class="portfolio-link">Read More</a>
+            </div>
+        </article>
+        <article class="portfolio right">
+            <figure class="portfolio-figure"><img class="portfolio-image" src="img/IMAGE2.png" alt="Image"></figure>
+            <div class="portfolio-text">
+                <div class="portfolio-label">Branding</div>
+                <h2 class="portfolio-title">Design and extreme programming practice</h2>
+                <a href="#" class="portfolio-link">Read More</a>
+            </div>
+        </article>
+        <article class="portfolio">
+            <figure class="portfolio-figure"><img class="portfolio-image" src="img/IMAGE3.png" alt="Image"></figure>
+            <div class="portfolio-text">
+                <div class="portfolio-label">Web Design</div>
+                <h2 class="portfolio-title">Nature inspired design</h2>
+                <a href="#" class="portfolio-link">Read More</a>
+            </div>
+        </article>
+        <article class="portfolio right">
+            <figure class="portfolio-figure"><img class="portfolio-image" src="img/IMAGE4.png" alt="Image"></figure>
+            <div class="portfolio-text">
+                <div class="portfolio-label">Motion Graphics</div>
+                <h2 class="portfolio-title">Design & concept at work.</h2>
+                <a href="#" class="portfolio-link">Read More</a>
+            </div>
+        </article>
+    </section>
+
+    <section class="section-services container">
+        <div class="section-head">
+            <img class="sun" src="./img/sun.png" alt="sun">
+            <h2 class="section-head-title">Services</h2>
+            <p class="section-head-subtitle">REGONITIONS &amp; ACCOIMPLISHMENTS</p>
+        </div>
+        <div class="services">
+            <div class="service">
+                <h3 class="service-title">Web Design</h3>
+                <p class="service-text">Every single project is a challenge that we accept eagerly. Let’s implement
+                    innovative ideas together!</p>
+            </div>
+            <div class="service">
+                <h3 class="service-title">Product Design</h3>
+                <p class="service-text">Every single project is a challenge that we accept eagerly. Let’s implement
+                    innovative ideas together!</p>
+            </div>
+            <div class="service">
+                <h3 class="service-title">UI/UX Design</h3>
+                <p class="service-text">Every single project is a challenge that we accept eagerly. Let’s implement
+                    innovative ideas together!</p>
+            </div>
+            <div class="service">
+                <h3 class="service-title">Art Direction</h3>
+                <p class="service-text">Every single project is a challenge that we accept eagerly. Let’s implement
+                    innovative ideas together!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-customer container">
+        <div class="section-head">
+            <img class="sun" src="./img/sun.png" alt="sun">
+            <h2 class="section-head-title">Happy Customer</h2>
+        </div>
+        <div class="customers">
+            <div class="customer">
+                <img src="img/customer1.svg" alt="Brand" class="customer-image">
+            </div>
+            <div class="customer">
+                <img src="img/customer2.svg" alt="Brand" class="customer-image">
+            </div>
+            <div class="customer">
+                <img src="img/customer3.svg" alt="Brand" class="customer-image">
+            </div>
+            <div class="customer">
+                <img src="img/customer4.svg" alt="Brand" class="customer-image">
+            </div>
+            <div class="customer">
+                <img src="img/customer3.svg" alt="Brand" class="customer-image">
+            </div>
+            <div class="customer">
+                <img src="img/customer1.svg" alt="Brand" class="customer-image">
+            </div>
+            <div class="customer">
+                <img src="img/customer4.svg" alt="Brand" class="customer-image">
+            </div>
+            <div class="customer">
+                <img src="img/customer2.svg" alt="Brand" class="customer-image">
+            </div>
+        </div>
+    </section>
+
+    <section class="section-articles">
+        <div class="articles container">
+            <div class="section-head">
+                <img class="sun" src="./img/sun.png" alt="sun">
+                <h2 class="section-head-title">Articles</h2>
+                <p class="section-head-subtitle">REGONITIONS &amp; ACCOIMPLISHMENTS</p>
+            </div>
+            <article class="article">
+                <div class="article-head">
+                    <div class="article-date">
+                        <span class="article-label">DESIGN</span>
+                        /
+                        <span class="article-label">April 28, 2022</span>
+                    </div>
+                    <h4 class="article-title">Why I moved from Wordpress to Webflow</h4>
+                </div>
+                <p class="article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore.</p>
+            </article>
+            <article class="article">
+                <div class="article-head">
+                    <div class="article-date">
+                        <span class="article-label">DESIGN</span>
+                        /
+                        <span class="article-label">April 26, 2022</span>
+                    </div>
+                    <h4 class="article-title">What did i learn from doing 50+ design sprints</h4>
+                </div>
+                <p class="article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore.</p>
+            </article>
+            <article class="article">
+                <div class="article-head">
+                    <div class="article-date">
+                        <span class="article-label">DESIGN</span>
+                        /
+                        <span class="article-label">April 26, 2022</span>
+                    </div>
+                    <h4 class="article-title">Fostering professional growth in your company</h4>
+                </div>
+                <p class="article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore.</p>
+            </article>
+            <button class="articles-button black-bg">Browse Articles</button>
+        </div>
+        <img src="img/half-sun.png" alt="Bg-sun" class="articles-sun">
+    </section>
+
+    <section class="section-form">
+        <div class="subscribe container">
+            <h3 class="subscribe-text">Subscribe to our newsletter</h3>
+            <div class="subscribe-form">
+                <input placeholder="Email Address" type="text" class="subscribe-input">
+                <button class="subscribe-button black-bg">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section-footer black-bg">
+        <div class="footer container">
+            <div class="footer-top">
+                <img src="img/sun-white.png" alt="Logo">
+                <nav class="footer-nav">
+                    <a href="#">Style Guide</a>
+                    <a href="#">Licence</a>
+                    <a href="#">Changelog</a>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copy">© Made by Portfolio Template &amp; powered by Flowbase</p>
+                <div class="footer-social">
+                    <a href="#" class="footer-social-link">
+                        <img src="img/in.png" alt="Linkedin">
+                    </a>
+                    <a href="#" class="footer-social-link">
+                        <img src="img/tw.png" alt="Twitter">
+                    </a>
+                    <a href="#" class="footer-social-link">
+                        <img src="img/inst.png" alt="Insta">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
