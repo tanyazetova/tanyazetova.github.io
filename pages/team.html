@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="header container">
+        <div class="header-info">
+            <ul class="lang">
+                <li class="lang-item">UK</li>
+                <li class="lang-item">RU</li>
+                <li class="lang-item active">EN</li>
+            </ul>
+            <span class="word-dot"></span>
+            <p class="header-address">Kyiv, Mechnikova str, 14/1</p>
+            <span class="word-dot"></span>
+            <a href="tel:0800211927" class="header-number">0800 211 927</a>
+            <span class="word-dot"></span>
+            <a class="header-fb" href="https://fb.com">
+                <img src="../img/logo-f-header.svg" alt="FB">
+            </a>
+        </div>
+        <div class="logo-wrap">
+            <a class="header-logo" href=""><img src="../img/Logo.svg" alt="Logo"></a>
+            <button onclick="nav.classList.add('opened')" id="burger" class="burger-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav class="header-nav">
+            <div onclick="nav.classList.remove('opened')" class="nav-close">
+                <button id="close" class="burger-btn close">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <a href="">about us</a>
+            <a href="">services</a>
+            <a href="" class="active">team</a>
+            <a href="">publications</a>
+            <a href="../index.html">contacts</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1 class="page-title">We are used to taking responsibility and always guarantee honest, timely assistance, even
+            in situations where most are powerless.</h1>
+        <div class="cards">
+            <article class="card">
+                <figure class="card-img">
+                    <img src="../img/Team-1.jpg" alt="Team photo">
+                </figure>
+                <a href="" class="card-info">
+                    <div class="card-text">
+                        <h2 class="card-title">Alexander Alexandrovsky</h2>
+                        <p class="card-subtitle">Managing partner</p>
+                    </div>
+                    <div class="card-more"></div>
+                </a>
+            </article>
+            <article class="card">
+                <figure class="card-img">
+                    <img src="../img/Team-2.jpg" alt="Team photo">
+                </figure>
+                <a href="" class="card-info">
+                    <div class="card-text">
+                        <h2 class="card-title">Evgeny Patrikov</h2>
+                        <p class="card-subtitle">Equity partner, Attorney-at-law</p>
+                    </div>
+                    <div class="card-more"></div>
+                </a>
+            </article>
+            <article class="card">
+                <figure class="card-img">
+                    <img src="../img/Team-3.jpg" alt="Team photo">
+                </figure>
+                <a href="" class="card-info">
+                    <div class="card-text">
+                        <h2 class="card-title">Vladislav Melnik</h2>
+                        <p class="card-subtitle">Associate</p>
+                    </div>
+                    <div class="card-more"></div>
+                </a>
+            </article>
+            <article class="card">
+                <figure class="card-img">
+                    <img src="../img/Team-4.jpg" alt="Team photo">
+                </figure>
+                <a href="" class="card-info">
+                    <div class="card-text">
+                        <h2 class="card-title">Sergey Binn</h2>
+                        <p class="card-subtitle">Associate</p>
+                    </div>
+                    <div class="card-more"></div>
+                </a>
+            </article>
+            <article class="card">
+                <figure class="card-img">
+                    <img src="../img/Team-5.jpg" alt="Team photo">
+                </figure>
+                <a href="" class="card-info">
+                    <div class="card-text">
+                        <h2 class="card-title">Oksana Kobzar</h2>
+                        <p class="card-subtitle">Equity partner, Attorney-at-law</p>
+                    </div>
+                    <div class="card-more"></div>
+                </a>
+            </article>
+            <article class="card">
+                <figure class="card-img">
+                    <img src="../img/Team-6.jpg" alt="Team photo">
+                </figure>
+                <a href="" class="card-info">
+                    <div class="card-text">
+                        <h2 class="card-title">Julia Wolk</h2>
+                        <p class="card-subtitle">Associate, Attorney-at-law</p>
+                    </div>
+                    <div class="card-more"></div>
+                </a>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="footer-top">
+                <p class="footer-address">
+                    Kyiv, Mechnikova str, 14/1
+                    <span class="word-dot"></span>
+                    <a href="" class="footer-link">On map</a>
+                </p>
+                <p class="footer-copy">© 2021 HLEGAL Law company, LLC</p>
+            </div>
+            <div class="footer-bottom">
+                <a class="fb" href="https://fb.com">
+                    <img src="./../img/logo-f-footer.svg" alt="FB">
+                </a>
+                <span class="word-dot"></span>
+                <a href="tel:0800211927" class="number">0800 211 927</a>
+                <span class="word-dot"></span>
+                <a href="mailto:contact@forstudy.space" class="footer-link email">contact@forstudy.space</a>
+            </div>
+            <p class="footer-copy-bottom">© 2021 HLEGAL Law company, LLC</p>
+        </div>
+    </footer>
+
+    <script>
+        const nav = document.querySelector('.header-nav');
+    </script>
+</body>
+
+</html>

@@ -41,7 +41,8 @@ html {
   color: #24a3ff;
   text-decoration: none;
 }
-.header-nav .active {
+.header-nav .active,
+.header-nav a:hover {
   color: #f0145a;
   text-decoration: underline;
 }
@@ -92,7 +93,8 @@ html {
   border-radius: 8px;
   padding: 5px 7px;
 }
-.lang-item.active {
+.lang-item.active,
+.lang-item:hover {
   color: #ffffff;
   background: #f0145a;
 }
@@ -372,13 +374,6 @@ html {
     font-size: 30px;
     line-height: 37px;
     margin: 30px 0;
-  }
-  .cards {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-  .card-img {
-    height: 300px;
   }
   .footer-top {
     justify-content: center;
