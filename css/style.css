@@ -9,9 +9,15 @@ html {
   font-weight: 400;
 }
 .body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   overflow-x: hidden;
   color: #323264;
   font-weight: 400;
+}
+.main {
+  flex-grow: 1;
 }
 .container {
   margin: 0 auto;
@@ -23,6 +29,7 @@ html {
   display: flex;
   flex-direction: column;
   padding-top: 50px;
+  width: 100%;
 }
 .header-nav {
   position: absolute;
@@ -374,6 +381,13 @@ html {
     font-size: 30px;
     line-height: 37px;
     margin: 30px 0;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .card-img {
+    height: 300px;
   }
   .footer-top {
     justify-content: center;
